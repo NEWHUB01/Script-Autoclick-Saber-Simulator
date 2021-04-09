@@ -1,0 +1,4 @@
+---Execute and click your sword then finish---
+while true do wait(1)
+game:GetService("ReplicatedStorage").Events.Clicked:FireServer()
+end
